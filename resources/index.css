@@ -1,0 +1,99 @@
+@charset   "UTF-8";
+@namespace "http://www.w3.org/1999/xhtml";
+/* ╔════════════════════════════════════════════════════════════════════╗
+   ║ at_document_end : CSS                                              ║
+   ╟────────────────────────────────────────────────────────────────────╢
+   ╚════════════════════════════════════════════════════════════════════╝
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ */
+/*zero + defaults + left-to-right (LTR) bi-directional*/
+*{box-sizing:         border-box;
+  text-size-adjust:         100%;
+  touch-action:     manipulation;
+  margin:                      0;
+  padding:                     0;
+  direction:                 ltr;
+  text-align:               left;
+  vertical-align:       baseline;
+  resize:                   none;
+  user-zoom:                none;
+  -webkit-user-drag:        none;
+     -moz-user-drag:        none;
+          user-drag:        none;
+}
+::-webkit-input-placeholder{ 
+  color:rgba(0,0,0,.2);
+  font-style:italic;
+}
+/*
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ */
+/*core-size*/
+html,body{     width:100%; height:100%; overflow:hidden; }
+textarea{      width:50%;  height:100%; overflow:auto;   }
+iframe{        width:50%;  height:100%; overflow:hidden; }
+
+/*core-placements*/
+html,body{     display:block; position:absolute;  top:0;    bottom:100%;  left:0;    right:100%; }
+textarea{      display:block; position:absolute;  top:0;    bottom:100%;  left:0;    right:50%;  }
+iframe{        display:block; position:absolute;  top:0;    bottom:100%;  left:50%;  right:100%; }
+/*
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ */
+/*core-borders*/
+ html,     html:focus,     html:hover,     html:active
+,body,     body:focus,     body:hover,     body:active
+,textarea, textarea:focus, textarea:hover, textarea:active
+,iframe,   iframe:focus,   iframe:hover,   iframe:active    {
+  outline:                   none transparent;
+  border:                     .3px solid gray;
+  border-collapse:                   collapse;
+  border-spacing:                           0;
+}
+/*
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ */
+/*font*/
+html,textarea{
+  font:           9pt 'Courier New', monospace;
+  line-height:    1.2em;
+  letter-spacing: .3pt;
+  white-space:    pre;
+}
+
+*{
+  font-kerning:none;
+  font-feature-settings:'kern' 0;
+}
+/*
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ */
+/*color*/
+textarea{
+  background:  none #FFFFE0;
+  color:       black;
+}
+/*
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ */
+/*button*/
+[button], [button]:focus, [button]:hover, [button]:active{ text-decoration:none; outline:none;    }
+[button]{                                                     background: none rgba(0,0,0,.1);       } /* radial-gradient fallback */
+[button]:hover{                                               background: none rgba(243,243,193,.9); } /* radial-gradientfallback */
+
+[button]{
+  padding:         1px 5px 1px 5px;
+  display:         inline-block;
+  position:        relative;
+  cursor:          pointer;
+  border-radius:   5px;
+  letter-spacing:  -.5px;
+}
+
+[button]{         border:2px solid rgba(0,0,0,.3);  box-shadow: 1px  1px 3px rgba(0,0,0,.3);  background:linear-gradient(white, rgba(0,0,0,.15));       }
+[button]:focus{   border:2px solid rgba(0,0,0,.6);                                                                                                      }
+[button]:hover{   border:2px solid rgba(0,0,0,.6);  box-shadow: 3px  3px 5px rgba(0,0,0,.2);  background:linear-gradient(rgba(243,243,193,.6), white);  }
+[button]:active{  border:2px solid rgba(0,0,0,.6);  box-shadow:-3px -3px 5px rgba(0,0,0,.2);  background:linear-gradient(rgba(243,243,193,.6), white);  }
+/*
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ */
+/*debug*/
+/*
+.top{    background:none yellow;}
+.bottom{ background:none blue;  }
+*/
+/*
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ */

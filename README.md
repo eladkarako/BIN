@@ -1,37 +1,11 @@
-## Welcome to GitHub Pages
+<h1><img alt="" src="resources/icon.png"/><strong>BIN</strong> &nbsp; <sub><a target="_blank" href="https://paypal.me/e1adkarak0" rel="nofollow"><img src="https://www.paypalobjects.com/webstatic/mktg/Logo/pp-logo-100px.png" width="60" height="16" border="0" alt="PayPal Donation"></a></sub></h1>
 
-You can use the [editor on GitHub](https://github.com/eladkarako/bin.eladkarako.com/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+<h2>BIN is a BinJS' Genius <em>Brother</em>. Better, Faster, <strong>Zero-Loading-Time</strong>.</h2>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<img alt="" src="resources/screenshot_1.png"/>
 
-### Markdown
+<hr/>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<h3>Suggested Usage: Fork It, Add A GitHub-Page- Choose ANY Template And Delete The <code>_config.yml</code>, Browse Your Very-Own <strong>BIN</strong> Using <sub><em>(Replace <code>USERNAME</code> With Your GitHub Username)</em></sub><code>https://USERNAME.github.io/bin.eladkarako.com/</code>.</h3>
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/eladkarako/bin.eladkarako.com/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<sub><a target="_blank" href="https://paypal.me/e1adkarak0" rel="nofollow"><img src="https://www.paypalobjects.com/webstatic/mktg/Logo/pp-logo-100px.png" width="60" height="16" border="0" alt="PayPal Donation"></a></sub>
